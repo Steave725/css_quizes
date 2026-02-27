@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final CSS Project</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal CSS -->
+  <style>
+    /* Internal CSS Example */
+    h2 {
+      color: darkgreen;
+    }
+
+    /* This will override external h3 color */
+    h3 {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Inline CSS (highest priority) -->
+  <h1 style="color: purple;">Welcome to My Styled Page</h1>
+
+  <h2>This is an Internal CSS Example</h2>
+
+  <h3>This demonstrates Cascading Order</h3>
+
+  <p>This paragraph is styled using an element selector.</p>
+
+  <p id="special">This paragraph uses an ID selector.</p>
+
+  <p class="center">This paragraph uses a class selector.</p>
+
+  <p class="center large">This paragraph uses multiple classes.</p>
+
+  <div class="box">
+    This div is styled using a class selector.
+  </div>
+
+</body>
+</html>

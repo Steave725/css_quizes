@@ -1,0 +1,66 @@
+/* =====================================
+   External CSS File
+   Demonstrating CSS Concepts
+===================================== */
+
+/* Element Selector */
+p {
+    color: blue;
+    font-family: Arial;
+  }
+  
+  /* ID Selector */
+  #special {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Class Selector */
+  .center {
+    text-align: center;
+  }
+  
+  /* Multiple Class Example */
+  .large {
+    font-size: 24px;
+  }
+  
+  /* Universal Selector */
+  * {
+    margin: 5px;
+  }
+  
+  /* Grouping Selector */
+  h1, h3 {
+    text-align: center;
+    color: navy;
+  }
+  
+  /* Box Styling */
+  .box {
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  
+  /* =====================================
+     CSS Error Examples (Fixed Versions)
+  ===================================== */
+  
+  /* Missing semicolon fixed */
+  .fixed-example {
+    color: green;
+    background-color: yellow;
+  }
+  
+  /* Invalid property name fixed */
+  .correct-property {
+    color: blue;
+    font-size: 16px;
+  }
+  
+  /* Properly closed braces */
+  .closed-brace {
+    padding: 10px;
+    margin: 10px;
+  }
